@@ -27,12 +27,12 @@ class Web{
            
             
             stroke("black");
-            if(pointA.x < 220) {
+            //if(pointA.x < 220) {
                 strokeWeight(7);
                 line(pointA.x - 20, pointA.y, pointB.x -10, pointB.y);
                 line(pointA.x - 20, pointA.y, pointB.x + 30, pointB.y - 3);
                 
-            }
+            //}
             
         }
     }
